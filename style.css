@@ -354,18 +354,20 @@ footer a{
 @media (max-width: 1000px){
 	.container, #about, aside, #contact{
 		width: 100%;
-       		margin: 20px auto;
-       		position: static;
+       	margin: 20px auto;
+       	position: static;
 	}
 
 	.foto{
 		width: 100%;
-		padding: 15px;
-	}        
+	padding: 15px;
+	}
+
+	
 }
 
 @media (max-width: 600px){
-        .jumbotron-item h1{
-		text-align: center;
-        	font-size: 35px;
+	.jumbotron-item h1{
+		font-size: 30px;
+	}
 }
